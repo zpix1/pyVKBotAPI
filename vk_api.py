@@ -23,6 +23,7 @@ class VKMessage():
         self.attachments['photos'] = photos
         self.attachments['documents'] = documents
         self.sender = sender
+        self.receiver = receiver
 
     @staticmethod
     def _from_vk_message_dict(obj):
